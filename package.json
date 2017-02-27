@@ -1,0 +1,38 @@
+{
+  "name": "bookmarker",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "immutable": "^3.8.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-native": "^0.41.2",
+    "react-native-vector-icons": "^2.0.3",
+    "react-navigation": "^1.0.0-beta.5",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-persist": "^4.4.2",
+    "redux-saga": "^0.13.0",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.1.1",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "eslint-plugin-react": "^5.2.2",
+    "flow-bin": "^0.40.0",
+    "jasmine": "^2.4.1",
+    "rnpm": "^1.9.0",
+    "babel-jest": "19.0.0",
+		"babel-preset-react-native": "1.9.1",
+		"jest": "19.0.2",
+		"react-test-renderer": "15.4.2"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
