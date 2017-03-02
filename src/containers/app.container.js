@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import AppNavigator from '../navigator';
+import {AppNavigator, TabNavigator} from '../navigator';
 import { addNavigationHelpers } from 'react-navigation';
 import React, { Component } from 'react';
 
@@ -8,7 +8,7 @@ export default class AppContainer extends Component {
 	render(): ReactElement {
 		const { dispatch, nav } = this.props;
 		const navigation = addNavigationHelpers({dispatch, state: nav});
-		return <AppNavigator navigation={navigation} />;
+		return <TabNavigator navigation={navigation} />;
 	}
 }
 /* equivalent to
