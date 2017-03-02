@@ -8,6 +8,7 @@ import {
 } from 'redux-persist';
 
 export default class App extends Component{
+    store = Store;
     componentDidMount() {
         persistStore(this.store, { storage: AsyncStorage, blackList: ['nav'] });
     }
